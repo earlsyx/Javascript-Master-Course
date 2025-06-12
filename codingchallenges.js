@@ -20,3 +20,5 @@ let johnBMI = johnMass / johnHeight ** 2;
 
 const markHeigherBMI = markBMI > johnBMI;
 console.log(markHeigherBMI);
+
+// cHALLGEN2

@@ -102,22 +102,41 @@ console.log(now - 1991 > now - 2018);
 // const averageAge = (ageJonas + ageSarah) / 2;
 // console.log(ageJonas, ageSarah, averageAge);
 
-const firstName = "Jonas";
-const job = "teacher";
-const birthYear = 1991;
-const year = 2027;
+// const firstName = "Jonas";
+// const job = "teacher";
+// const birthYear = 1991;
+// const year = 2027;
 
-//type coercion
-const jonas =
-  "I'm" + firstName + ", a " + (year - birthYear) + "years old" + job + "!";
-console.log(jonas);
+// //type coercion
+// const jonas =
+//   "I'm" + firstName + ", a " + (year - birthYear) + "years old" + job + "!";
+// console.log(jonas);
 
-//tempalte literals
-const jonasNew = `I'm ${firstName}, a ${year - birthYear}  year old ${job}!`;
-console.log(jonasNew);
-console.log(`Just use a regular string....`);
+// //tempalte literals
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear}  year old ${job}!`;
+// console.log(jonasNew);
+// console.log(`Just use a regular string....`);
 
-console.log("String \n multiple \n lines");
-console.log(`String 
-  multiple
-   lines`);
+// console.log("String \n multiple \n lines");
+// console.log(`String
+//   multiple
+//    lines`);
+
+const age = 15;
+let century;
+// control structure
+if (age >= 18) {
+  console.log("Sarah can start driving license  ");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`sarah is too young. Wait another ${yearsLeft} years`);
+}
+
+const birthYear = 2012;
+if (birthYear <= 2000) {
+  century = 20; // code block
+} else {
+  century = 21;
+}
+
+console.log(century);

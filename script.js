@@ -252,16 +252,64 @@ console.log(century);
 
 //difference between satement and expresison
 
-3 + 4; // experession because it produce a value
-1991;
-true && false && !false;
+// 3 + 4; // experession because it produce a value
+// 1991;
+// true && false && !false;
 
-//statemetns , sequence of action
+// //statemetns , sequence of action
 
-if (23 > 10) {
-  const str = "23 is bigger"; //decalring a variable, str is exprssion
+// if (23 > 10) {
+//   const str = "23 is bigger"; //decalring a variable, str is exprssion
+// }
+
+// //teplate literal, statement only
+// const me = "Earl";
+// console.log(`I'm ${2037 - 1991} years old ${me} `);
+
+const ageS = 23;
+ageS >= 18
+  ? console.log("I like to drink wine")
+  : console.log("I like to drink water");
+
+const drink = age >= 18 ? "wine " : "water";
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = "Wine";
+} else {
+  drink2 = "water";
 }
 
-//teplate literal, statement only
-const me = "Earl";
-console.log(`I'm ${2037 - 1991} years old ${me} `);
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? "wine " : "water"}`);
+
+//History of Javascript
+/*
+1995- Brendan Eich creates the very first version of Javascript in just 10 days. 
+It was called Mocha, but already had fundamental features of modern Javascript!
+
+ 1996- Mocha changes to LiveScript and then to JavaScript, in order to attract Java
+ developers. However, Javascripthas almost nothing to do with Java
+
+ Microsoft launches IE, copying javascript from netscape and calling it Jscript; 
+ 
+ 1997 - People realized they needed to standardize JavaScript. So Language was submitted
+ to an independent standard organization called ECMA,  released ECMAScript one or ES1.
+
+2009 - ES5 (ECMAScript 5) is released with lots of great new features;
+2015 - ES6/ES2015 (ECMAScript 2015) was released: the biggest update to the language ever!
+ECMAScript changes to an annual release cycle in order to ship less features per update 
+
+2016 - infinty Release of ES2016 / ES2017 / ES2018/ ES2019/ ES2020/ ES2021 / ... / ES20424124 
+
+Backwards compatiblity: DOn't break the web
+- old features are never removed;
+not really new gversions, just nicremental updates9releases
+website keep working 4ever 
+Berden Eich
+
+transile, and polyfill (convering back to es5 to ensure vrowser compat ses5 ie9)
+es6/es2025 es2020 -> well supported in modern browsers
+*/

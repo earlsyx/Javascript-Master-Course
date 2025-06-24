@@ -201,14 +201,14 @@ console.log(century);
 
 // if (favourite !== 23) console.log("Why not 23");
 
-const hasDriverLicense = true; //A
-const hasGoodVision = true; //B
+// const hasDriverLicense = true; //A
+// const hasGoodVision = true; //B
 
-console.log(hasDriverLicense && hasGoodVision);
-console.log(hasDriverLicense || hasGoodVision);
-console.log(!hasDriverLicense);
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
+// console.log(!hasDriverLicense);
 
-const shouldDrive = hasDriverLicense && hasGoodVision;
+// const shouldDrive = hasDriverLicense && hasGoodVision;
 
 // if (shouldDrive) {
 //   console.log("Sarah is able to drive");
@@ -225,27 +225,43 @@ const shouldDrive = hasDriverLicense && hasGoodVision;
 //   console.log("Someone should drive");
 // }
 
-const day = "monday";
+// const day = "monday";
 
-switch (day) {
-  case "monday": // day === 'monday'
-    console.log("Plan course strucure");
-    console.log("Go to coding meetup");
-    break;
-  case "tuesday":
-    console.log("Prepare theory videos");
-    break;
-  case "wednesday":
-  case "thursday":
-    console.log;
-    "Write conde examples";
-    break;
-  case "friday":
-    console.log("Record videos");
-  case "saturday":
-  case "sunday ":
-    console.log("Enjoy the weekend :D");
-    break;
-  default:
-    console.log("Not a valid day!");
+// switch (day) {
+//   case "monday": // day === 'monday'
+//     console.log("Plan course strucure");
+//     console.log("Go to coding meetup");
+//     break;
+//   case "tuesday":
+//     console.log("Prepare theory videos");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log;
+//     "Write conde examples";
+//     break;
+//   case "friday":
+//     console.log("Record videos");
+//   case "saturday":
+//   case "sunday ":
+//     console.log("Enjoy the weekend :D");
+//     break;
+//   default:
+//     console.log("Not a valid day!");
+// }
+
+//difference between satement and expresison
+
+3 + 4; // experession because it produce a value
+1991;
+true && false && !false;
+
+//statemetns , sequence of action
+
+if (23 > 10) {
+  const str = "23 is bigger"; //decalring a variable, str is exprssion
 }
+
+//teplate literal, statement only
+const me = "Earl";
+console.log(`I'm ${2037 - 1991} years old ${me} `);

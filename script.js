@@ -216,11 +216,36 @@ const shouldDrive = hasDriverLicense && hasGoodVision;
 //   console.log("Someone should drive");
 // }
 
-const isTired = false; // C
-console.log(hasDriverLicense || hasGoodVision || isTired);
+// const isTired = false; // C
+// console.log(hasDriverLicense || hasGoodVision || isTired);
 
-if (hasDriverLicense && hasGoodVision && !isTired) {
-  console.log("Sarah is able to drive");
-} else {
-  console.log("Someone should drive");
+// if (hasDriverLicense && hasGoodVision && !isTired) {
+//   console.log("Sarah is able to drive");
+// } else {
+//   console.log("Someone should drive");
+// }
+
+const day = "monday";
+
+switch (day) {
+  case "monday": // day === 'monday'
+    console.log("Plan course strucure");
+    console.log("Go to coding meetup");
+    break;
+  case "tuesday":
+    console.log("Prepare theory videos");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log;
+    "Write conde examples";
+    break;
+  case "friday":
+    console.log("Record videos");
+  case "saturday":
+  case "sunday ":
+    console.log("Enjoy the weekend :D");
+    break;
+  default:
+    console.log("Not a valid day!");
 }

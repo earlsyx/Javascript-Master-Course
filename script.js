@@ -178,25 +178,49 @@ console.log(century);
 //   console.log("Height is undefiend");
 // }
 
-const ages = 19;
-if (age === 18) console.log("You just became an adult :D");
+// const ages = 19;
+// if (age === 18) console.log("You just became an adult :D");
 
-//strict and loose, type coersion type conversion
+// //strict and loose, type coersion type conversion
 
-if (age == 18) console.log("You just became an adult :D (loose");
+// if (age == 18) console.log("You just became an adult :D (loose");
 
-const favourite = Number(prompt("What's your favourite number?"));
-console.log(favourite);
-console.log(typeof favourite);
+// const favourite = Number(prompt("What's your favourite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
 
-if (favourite === 23) {
-  console.log("Cool! 23 is an amazing number!");
-} else if (favourite === 7) {
-  console.log("7 is also a cool number");
-} else if (favourite === 9) {
-  console.log("9 is also a cool number");
+// if (favourite === 23) {
+//   console.log("Cool! 23 is an amazing number!");
+// } else if (favourite === 7) {
+//   console.log("7 is also a cool number");
+// } else if (favourite === 9) {
+//   console.log("9 is also a cool number");
+// } else {
+//   console.log("Number is not 23 or 7");
+// }
+
+// if (favourite !== 23) console.log("Why not 23");
+
+const hasDriverLicense = true; //A
+const hasGoodVision = true; //B
+
+console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasDriverLicense);
+
+const shouldDrive = hasDriverLicense && hasGoodVision;
+
+// if (shouldDrive) {
+//   console.log("Sarah is able to drive");
+// } else {
+//   console.log("Someone should drive");
+// }
+
+const isTired = false; // C
+console.log(hasDriverLicense || hasGoodVision || isTired);
+
+if (hasDriverLicense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive");
 } else {
-  console.log("Number is not 23 or 7");
+  console.log("Someone should drive");
 }
-
-if (favourite !== 23) console.log("Why not 23");
